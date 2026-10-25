@@ -1,3 +1,5 @@
 [build]
+  command = "mkdir -p netlify/functions && cp votes.mjs netlify/functions/votes.mjs"
   publish = "."
-  functions = "."
+  functions = "netlify/functions"
+  
